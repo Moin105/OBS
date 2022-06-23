@@ -1,7 +1,7 @@
 import React from "react";
 // import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.scss";
-import Header from "./header";
+import Header from "../components/header";
 import pf1 from "../public/pf1.png";
 import pf2 from "../public/pf2.png";
 import pf3 from "../public/pf3.png";
@@ -15,7 +15,7 @@ import pw2 from "../public/pw2.png";
 import pw3 from "../public/pw3.png";
 import Image from "next/image";
 
-import Footer from "./footer";
+import Footer from "../components/footer";
 function Home() {
   return (
     <>

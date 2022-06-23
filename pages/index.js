@@ -1,15 +1,15 @@
 import Head from "next/head";
 // import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import Banner from "./banner";
-import Header from "./header";
-import Content from "./content";
-import WhoAreWe from "./whoarewe";
-import Portfolio from "./portfolio";
-import Carousel from "./carousel";
-import Ourteam from "./ourteam";
-import Contact from "./contact";
-import Footer from "./footer";
+import Banner from "../components/banner";
+import Header from "../components/header";
+import Content from "../components/content";
+import WhoAreWe from "../components/whoarewe";
+import Portfolio from "../components/portfolio";
+import Carousel from "../components/carousel";
+import Ourteam from "../components/ourteam";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 // import LinkZZZZ from "next/link";
 

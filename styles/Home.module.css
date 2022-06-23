@@ -1,0 +1,449 @@
+.container {
+  font-family: "Montserrat";
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* // HEADER CSS */
+.header {
+  margin: 42px 194px 0px 193px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header li {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffd400;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.header ul .btn {
+  background-color: #ffd400;
+  padding: 14px 30px 14px 29px;
+  color: #ffffff;
+  border-radius: 40px;
+}
+
+.wrapper {
+  margin: 0px 192px 0px 193px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .bl {
+  margin: 240px 0px 304px 0px;
+  width: 44%;
+  color: #ffffff;
+}
+
+.wrapper .bl p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 95px;
+}
+
+.wrapper .bl h2 {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.b {
+  top: 0;
+  width: 100%;
+  height: 1080px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+  background-color: #000000;
+}
+
+.black {
+  top: 0;
+  width: 100%;
+  height: 1080px;
+  position: absolute;
+  z-index: -12;
+  opacity: 0.8;
+  background-color: #000000;
+  background-image: url("../public/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.br {
+  position: absolute;
+  right: 192px;
+  margin-top: 113px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 102px 0px 245px 0px;
+}
+
+.content .yh {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #ffd400;
+  padding-bottom: 30px;
+}
+
+.content .bh {
+  font-weight: 600;
+  margin: 0 auto;
+  width: 70%;
+  font-size: 48px;
+  line-height: 69px;
+  color: #000000;
+  padding-bottom: 54px;
+}
+
+.content .layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .layout .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .layout .center {
+  position: relative;
+}
+
+.content .layout .center .mobile {
+  position: absolute;
+  width: 619px;
+  top: -30px;
+}
+
+.content .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .right .box .figure {
+  padding: 0px 33px 0px 0px;
+}
+
+.content .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .box figure {
+  padding: 0px 45px 0px 0px;
+}
+
+.detail {
+  width: 290px;
+  text-align: left;
+  padding-bottom: 36px;
+}
+
+.detail h4 {
+  font-size: 24.72px;
+  line-height: 30.13px;
+  font-weight: 600;
+  padding: 0px 0px 10px 0px;
+}
+
+.detail p {
+  font-size: 18px;
+}
+
+.wrw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 102px 0px 0px 0px;
+}
+
+.wrw .yh {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #ffd400;
+  padding-bottom: 30px;
+}
+
+.wrw .bh {
+  font-weight: 600;
+  margin: 0 auto;
+  width: 925px;
+  font-size: 48px;
+  line-height: 69px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.wrw .wrwp {
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 45px;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto;
+  padding: 0px 0px 70px 0px;
+}
+
+.wrwbg {
+  width: 100%;
+  background-image: url("../public/wrwbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #dba514;
+}
+
+.wrwbg h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 75px;
+  padding: 241px 0px 240px 0px;
+  margin: 0px auto;
+  width: 82%;
+}
+
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 94px 0px 186px 0px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.portfolio .pleft {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 946px;
+  left: 0;
+  height: 835px;
+}
+
+.portfolio .pright {
+  padding: 85px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 44%;
+}
+
+.portfolio .pright h4 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #ffd400;
+  padding-bottom: 30px;
+}
+
+.portfolio .pright p {
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.portfolio .pright h3 {
+  padding: 40px 0px 30px 0px;
+  font-size: 36px;
+  line-height: 55px;
+  font-weight: 600;
+}
+
+.portfolio .pright button {
+  background-color: #ffd400;
+  color: #ffffff;
+  padding: 14px 40px 14px 38px;
+  font-size: 24px;
+  line-height: 29.26px;
+  border: none;
+  width: 174px;
+  border-radius: 40px;
+}
+
+.background {
+  background-color: #ffd400;
+  position: relative;
+  z-index: -10;
+  height: 100%;
+}
+
+.testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 102px 0px 0px 0px;
+  width: 100%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.testimonials h3 {
+  font-size: 32px;
+  line-height: 39.01px;
+  font-weight: 600;
+  padding: 0px 0px 30px 0px;
+}
+
+.testimonials h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 69px;
+  padding-bottom: 70px;
+}
+
+.testimonials .quote {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+
+.testimonials .review {
+  font-size: 32px;
+  line-height: 55px;
+  padding-bottom: 100px;
+  width: 71%;
+}
+
+.testimonials .line {
+  width: 572px;
+  height: 3px;
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+
+.testimonials .cname {
+  font-size: 40px;
+  line-height: 48.76px;
+  font-weight: 700;
+  padding-bottom: 28px;
+}
+
+.testimonials .star {
+  padding-bottom: 40.33px;
+}
+
+.testimonials .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 144px;
+}
+
+.testimonials .group .dot {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+}
+
+.carousel_item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  background-color: #dba514;
+  color: #000000;
+}
+
+.carousel-status {
+  display: hidden;
+}
+/*# sourceMappingURL=Home.module.css.map */

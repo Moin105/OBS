@@ -682,7 +682,7 @@ $gold: #dba514;
     max-height: 722px !important;
   }
   .banner {
-    max-height: 620px;
+    max-height: 595px !important;
     .bl {
       p {
         font-size: 24px !important;
@@ -699,8 +699,9 @@ $gold: #dba514;
     margin: 0px 0px -18px 0px;
   }
   .br {
-    width: 511px;
-    height: 555px;
+    width: 441px;
+    height: 550px;
+
     // margin: 65px 0px 0px 0px;
   }
   // CONTENT
@@ -995,6 +996,20 @@ $gold: #dba514;
 //
 //
 //
+@media only screen and (max-width: 1300px) {
+  .picture {
+    max-width: 245px !important;
+    width: 285px !important;
+    position: relative;
+    height: 245px !important;
+  }
+}
+@media only screen and (max-width: 1098px) {
+  .cover {
+    margin: 0px 0px -75px 0px !important;
+  }
+}
+
 //
 //
 //
@@ -1046,7 +1061,7 @@ $gold: #dba514;
   .cover {
     bottom: 0 !important;
     position: relative;
-    margin: 0px 0px -18px 0px;
+    margin: 0px 0px -43px 0px;
   }
   .br {
     width: 410px;
@@ -1196,7 +1211,7 @@ $gold: #dba514;
     padding: 70px 0px 0px 0px !important;
   }
   .picture {
-    max-width: 285px !important;
+    max-width: 245px !important;
     width: 185px !important;
     position: relative;
     height: 185px !important;
@@ -1372,7 +1387,7 @@ $gold: #dba514;
     bottom: 32px !important ;
   }
   .banner {
-    max-height: 505px;
+    max-height: 505px !important;
   }
   .black {
     max-height: 577px !important;
@@ -1381,7 +1396,20 @@ $gold: #dba514;
     max-height: 577px !important;
   }
 }
+@media only screen and (max-width: 1027px) {
+  .br {
+    height: 464px !important;
+  }
+  .cover {
+    bottom: 40px !important;
+  }
+}
 
+@media only screen and (max-width: 910px) {
+  .cover {
+    bottom: 60px !important;
+  }
+}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // PORTFOLIO PAGE
 .portfolio_wrapper {

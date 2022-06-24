@@ -6,7 +6,7 @@ import logo from "../public/logo.png";
 function Footer() {
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} id="about">
         <div className={styles.footer}>
           <div className={styles.footer_row}>
             <div className={styles.b1}>

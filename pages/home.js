@@ -13,6 +13,7 @@ import pf8 from "../public/pf8.png";
 import pw1 from "../public/pw1.png";
 import pw2 from "../public/pw2.png";
 import pw3 from "../public/pw3.png";
+import v1 from "../public/V1.png";
 import Image from "next/image";
 
 import Footer from "../components/footer";
@@ -42,6 +43,14 @@ function Home() {
                 {" "}
                 <Image
                   src={pf1}
+                  alt="OBS TECHNOLOGIA"
+                  width={807}
+                  height={576}
+                />
+              </figure>
+              <figure className={styles.vector}>
+                <Image
+                  src={v1}
                   alt="OBS TECHNOLOGIA"
                   width={807}
                   height={576}

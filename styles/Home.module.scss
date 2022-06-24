@@ -1353,6 +1353,11 @@ $gold: #dba514;
 //
 //
 //
+@media only screen and (max-width: 1100px) {
+}
+.br {
+  height: 524px !important;
+}
 //
 //
 //
@@ -1405,6 +1410,12 @@ $gold: #dba514;
     padding: 110px 0px 0px 0px;
     .conr {
       width: 50%;
+      position: relative;
+      .vector {
+        position: absolute;
+        width: 47%;
+        margin: 435px 0px 0px 440px;
+      }
       figure {
         position: relative;
         justify-content: end;
@@ -1434,8 +1445,12 @@ $gold: #dba514;
     flex-direction: row-reverse;
     .conr {
       width: 50%;
+      position: relative;
       figure {
         position: relative;
+      }
+      .vector {
+        position: absolute;
       }
     }
     .conl {

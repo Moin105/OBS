@@ -17,8 +17,12 @@ function Header() {
           />
         </figure>
         <ul className={styles.center_nav}>
-          <li>Agency</li>
-          <li>Portfolio</li>
+          <li>
+            <Link href="/">Agency</Link>
+          </li>
+          <li>
+            <Link href="/home">Portfolio</Link>
+          </li>
           <li>
             <Link href="#services">Services </Link>
           </li>

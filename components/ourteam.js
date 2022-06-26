@@ -48,26 +48,6 @@ function Ourteam() {
                 <b>Chief</b> Executive Officer
               </div>
             </div>
-
-            <div className={styles.card}>
-              <figure className={styles.picture}>
-                <Image
-                  src={picture2}
-                  alt="quote"
-                  layout="fill"
-                  objectFit="contain"
-                />
-              </figure>
-              <div className={styles.yc}>02</div>
-              <div className={styles.cn}>
-                Muhammad <b> Younas</b>
-              </div>
-              <div className={styles.cl}></div>
-              <div className={styles.position}>
-                <b>Senior</b> Backend Developer <br></br>
-                Team Lead <b>Web</b>
-              </div>
-            </div>
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -77,7 +57,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>03</div>
+              <div className={styles.yc}>02</div>
               <div className={styles.cn}>
                 Zaid <b> Abbassi</b>
               </div>
@@ -95,7 +75,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>04</div>
+              <div className={styles.yc}>03</div>
               <div className={styles.cn}>
                 Hamza <b> Shiraz</b>
               </div>
@@ -103,10 +83,7 @@ function Ourteam() {
               <div className={styles.position}>
                 <b>Chief</b> Marketing Officer
               </div>
-            </div>
-          </div>
-
-          <div className={styles.row_container}>
+            </div>{" "}
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -116,7 +93,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>05</div>
+              <div className={styles.yc}>04</div>
               <div className={styles.cn}>
                 Ahmer <b> Shehzad</b>
               </div>
@@ -125,7 +102,9 @@ function Ourteam() {
                 <b>IOS</b> Developer
               </div>
             </div>
+          </div>
 
+          <div className={styles.row_container}>
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -135,7 +114,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>06</div>
+              <div className={styles.yc}>05</div>
               <div className={styles.cn}>
                 Luqman <b> Khan</b>
               </div>
@@ -153,7 +132,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>07</div>
+              <div className={styles.yc}>06</div>
               <div className={styles.cn}>
                 Mishal <b> Abid</b>
               </div>
@@ -171,7 +150,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>08</div>
+              <div className={styles.yc}>07</div>
               <div className={styles.cn}>
                 Humanyou <b> Arbaz</b>
               </div>
@@ -180,9 +159,6 @@ function Ourteam() {
                 <b>Office</b> Manager
               </div>
             </div>
-          </div>
-
-          <div className={styles.row_container}>
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -192,7 +168,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>09</div>
+              <div className={styles.yc}>08</div>
               <div className={styles.cn}>
                 Amna<b> Ahmad</b>
               </div>
@@ -201,7 +177,9 @@ function Ourteam() {
                 <b>UI/UX</b> Designer
               </div>
             </div>
+          </div>
 
+          <div className={styles.row_container}>
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -211,7 +189,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>10</div>
+              <div className={styles.yc}>09</div>
               <div className={styles.cn}>
                 Ume <b> Aimen</b>
               </div>
@@ -229,7 +207,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>11</div>
+              <div className={styles.yc}>10</div>
               <div className={styles.cn}>
                 Hajra <b> Qurban</b>
               </div>
@@ -247,7 +225,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>12</div>
+              <div className={styles.yc}>11</div>
               <div className={styles.cn}>
                 Haroon <b> Malik</b>
               </div>
@@ -255,29 +233,7 @@ function Ourteam() {
               <div className={styles.position}>
                 <b>Quality</b> Assurance
               </div>
-            </div>
-          </div>
-
-          <div className={styles.row_container}>
-            <div className={styles.card}>
-              <figure className={styles.picture}>
-                <Image
-                  src={picture13}
-                  alt="quote"
-                  layout="fill"
-                  objectFit="contain"
-                />
-              </figure>
-              <div className={styles.yc}>13</div>
-              <div className={styles.cn}>
-                Aqib <b> Malik</b>
-              </div>
-              <div className={styles.cl}></div>
-              <div className={styles.position}>
-                <b>Content</b> Creator
-              </div>
-            </div>
-
+            </div>{" "}
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -287,7 +243,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>14</div>
+              <div className={styles.yc}>12</div>
               <div className={styles.cn}>
                 Moin <b> Latif</b>
               </div>
@@ -296,6 +252,9 @@ function Ourteam() {
                 <b>Front-end</b> Developer
               </div>
             </div>
+          </div>
+
+          <div className={styles.row_container}>
             <div className={styles.card}>
               <figure className={styles.picture}>
                 <Image
@@ -305,7 +264,7 @@ function Ourteam() {
                   objectFit="contain"
                 />
               </figure>
-              <div className={styles.yc}>15</div>
+              <div className={styles.yc}>13</div>
               <div className={styles.cn}>
                 Ammara <b> Khan</b>
               </div>

@@ -10,6 +10,7 @@ import Carousel from "../components/carousel";
 import Ourteam from "../components/ourteam";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+// import { useEffect } from "react";
 
 // import LinkZZZZ from "next/link";
 

@@ -48,14 +48,14 @@ function Home() {
                   height={576}
                 />
               </figure>
-              <figure className={styles.vector}>
+              {/* <figure className={styles.vector}>
                 <Image
                   src={v1}
                   alt="OBS TECHNOLOGIA"
                   width={807}
                   height={576}
                 />
-              </figure>
+              </figure> */}
             </div>
           </div>
           <div className={styles.c2}>

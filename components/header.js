@@ -21,7 +21,7 @@ function Header() {
             <Link href="/">Agency</Link>
           </li>
           <li>
-            <Link href="/home">Portfolio</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
             <Link href="/#services">Services </Link>

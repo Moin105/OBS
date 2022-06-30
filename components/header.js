@@ -24,10 +24,10 @@ function Header() {
             <Link href="/home">Portfolio</Link>
           </li>
           <li>
-            <Link href="#services">Services </Link>
+            <Link href="/#services">Services </Link>
           </li>
           <li>
-            <Link href="#contact" smooth="true">
+            <Link href="/#contact" smooth="true">
               Contact
             </Link>
           </li>
@@ -35,7 +35,7 @@ function Header() {
         <ul className="right-nav">
           <li>
             {" "}
-            <Link href="#about" smooth="true">
+            <Link href="/#about" smooth="true">
               About
             </Link>
           </li>

@@ -26,7 +26,6 @@ function Footer() {
             <div className={styles.b2}>
               <h3>Call us</h3>
               <p>051-8892643</p>
-              <p>0304-4366760</p>
             </div>
             <div className={styles.b2}>
               <h3 className={styles.hadd}>Address</h3>
@@ -36,8 +35,14 @@ function Footer() {
             </div>
             <div className={styles.b2}>
               <h3>Email</h3>
-              <p className={styles.email}>Ceo@obstechnologia.com</p>
-              <p className={styles.email}>hr@obstechnologia.com</p>
+              <p className={styles.email}>
+                <a href="mailto:ceo@obstechnologia.com">
+                  ceo@obstechnologia.com
+                </a>{" "}
+              </p>
+              <p className={styles.email}>
+                <a href="mailto:hr@obstechnologia.com">hr@obstechnologia.com</a>
+              </p>
             </div>
           </div>
           <div className={styles.bottom_footer}>

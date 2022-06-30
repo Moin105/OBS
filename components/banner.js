@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import img from "../public/right.png";
-
 function Banner() {
   return (
     <>
@@ -29,6 +28,7 @@ function Banner() {
                   layout="fill"
                   objectFit="contain"
                   priority
+                  smooth
                   className={styles.br}
                 />
               </div>
@@ -36,13 +36,6 @@ function Banner() {
           </div>
         </div>
       </div>
-      {/* <Image
-        src={banner}
-        alt="BANNER"
-        layout="fill"
-        height={1080}
-        className={styles.banner}
-      /> */}
     </>
   );
 }

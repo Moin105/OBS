@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "../styles/Home.module.scss";
-// import Image from "next/image";
-// import wrwbg from "../public/wrwbg.png";
 function WhoAreWe() {
   return (
     <>
